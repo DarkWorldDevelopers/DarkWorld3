@@ -1,0 +1,93 @@
+IsOTGPlus:true
+
+Author: PG85
+
+Description: No description given
+
+Version: MCW104
+
+SettingsMode: WriteDisable
+
+Tree: false
+
+Frequency: 1
+
+RotateRandomly: false
+
+SpawnHeight: highestBlock
+
+MinHeight: 0
+
+MaxHeight: 256
+
+ExcludedBiomes: All
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+InheritBO3: we-jungledungeon32x32xX8_Middle_NW
+
+OverrideChildSettings: true
+
+CanOverride: false
+
+MustBeBelowOther: true
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: NONE
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: -1
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+SpawnPointX: 8
+
+SpawnPointY: -1
+
+SpawnPointZ: 7
+
+## Branches ##
+
+# At least one floorBelow must be able to spawn or this branch will be rolled back.
+# If there is any branch depth left then we-jungledungeon32x32xX8_Middle_Start is tried
+# before jungledungeon32x32xX8_Bottom_Start.
+Branch(0,-8,0,false,we-jungledungeon32x32xX8_Middle_Start,NORTH,100,0,floorBelow)
+Branch(0,-8,0,true,we-jungledungeon32x32xX8_Bottom_Start,NORTH,100,0,floorBelow)
+
+Branch(16,0,0,true,we-jungledungeon32x32xX8_Middle_NE,NORTH,100,0)
+Branch(16,0,16,true,we-jungledungeon32x32xX8_Middle_SE,NORTH,100,0)
+Branch(0,0,16,true,we-jungledungeon32x32xX8_Middle_SW,NORTH,100,0)

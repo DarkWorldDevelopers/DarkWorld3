@@ -1,0 +1,118 @@
+IsOTGPlus:true
+
+Author: PG85
+
+Description: No description given
+
+Version: MCW104
+
+SettingsMode: WriteDisable
+
+Tree: false
+
+Frequency: 1
+
+RotateRandomly: false
+
+SpawnHeight: highestBlock
+
+MinHeight: 0
+
+MaxHeight: 256
+
+ExcludedBiomes: All
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+InheritBO3: 
+
+OverrideChildSettings: true
+
+CanOverride: true
+
+MustBeBelowOther: false
+
+CannotBeInside: we-jungletempledungeon16x16x81exitNoRoof, we-jungletempledungeon16x16x82exitscornerNoRoof, we-jungletempledungeon16x16x82exitsoppositeNoRoof, we-jungletempledungeon16x16x83exitsNoRoof, we-jungletempledungeon16x16x84exitsNoRoof
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: NONE
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: -1
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+SpawnPointX: 8
+
+SpawnPointY: -1
+
+SpawnPointZ: 7
+
+#Block(-2,0,-1,GRAVEL)
+#Block(-2,0,0,GRAVEL)
+#Block(-2,0,1,GRAVEL)
+#Block(-2,0,2,GRAVEL)
+#Block(-2,1,-1,0)
+#Block(-2,1,0,0)
+#Block(-2,1,1,0)
+#Block(-2,1,2,0)
+#Block(-1,0,-1,GRAVEL)
+Block(-1,0,0,GRAVEL)
+Block(-1,0,1,GRAVEL)
+#Block(-1,0,2,GRAVEL)
+#Block(-1,1,-1,0)
+Block(-1,1,0,70)
+Block(-1,1,1,70)
+#Block(-1,1,2,0)
+#Block(0,0,-1,GRAVEL)
+Block(0,0,0,GRAVEL)
+Block(0,0,1,GRAVEL)
+#Block(0,0,2,GRAVEL)
+#Block(0,1,-1,0)
+Block(0,1,0,70)
+Block(0,1,1,70)
+#Block(0,1,2,0)
+#Block(1,0,-1,GRAVEL)
+#Block(1,0,0,GRAVEL)
+#Block(1,0,1,GRAVEL)
+#Block(1,0,2,GRAVEL)
+#Block(1,1,-1,0)
+#Block(1,1,0,0)
+#Block(1,1,1,0)
+#Block(1,1,2,0)
+
+Spawner(0,3,0,Bat,2,30,50,8,30)

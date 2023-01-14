@@ -1,0 +1,100 @@
+IsOTGPlus:true
+
+Author: PG85
+
+Description: No description given
+
+Version: MCW104
+
+SettingsMode: WriteDisable
+
+Tree: false
+
+Frequency: 1
+
+RotateRandomly: false
+
+SpawnHeight: highestBlock
+
+MinHeight: 0
+
+MaxHeight: 256
+
+ExcludedBiomes: All
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+InheritBO3: 
+
+OverrideChildSettings: true
+
+CanOverride: true
+
+MustBeBelowOther: false
+
+CannotBeInside: we-jungletempledungeon16x16x81exitNoRoof, we-jungletempledungeon16x16x82exitscornerNoRoof, we-jungletempledungeon16x16x82exitsoppositeNoRoof, we-jungletempledungeon16x16x83exitsNoRoof, we-jungletempledungeon16x16x84exitsNoRoof
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: NONE
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: -1
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+IsSpawnPoint: false
+
+SpawnPointX: 8
+
+SpawnPointY: -1
+
+SpawnPointZ: 7
+
+Block(-2,0,-1,98:3)
+Block(-2,0,0,98:3)
+Block(-2,0,1,98:3)
+Block(-2,0,2,98:3)
+Block(-1,0,-1,98:3)
+Block(-1,0,0,COBBLE_WALL:1,50,COBBLE_WALL,100)
+Block(-1,0,1,COBBLE_WALL:1,50,COBBLE_WALL,100)
+Block(-1,0,2,98:3)
+Block(0,0,-1,98:3)
+Block(0,0,0,COBBLE_WALL:1,50,COBBLE_WALL,100)
+Block(0,0,1,COBBLE_WALL:1,50,COBBLE_WALL,100)
+Block(0,0,2,98:3)
+Block(1,0,-1,98:3)
+Block(1,0,0,98:3)
+Block(1,0,1,98:3)
+Block(1,0,2,98:3)
+
+Spawner(0,3,0,Bat,2,30,50,8,30)

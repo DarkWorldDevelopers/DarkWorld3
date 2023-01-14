@@ -1,0 +1,90 @@
+IsOTGPlus:true
+
+Author: PG85
+
+Description: No description given
+
+Version: MCW104
+
+SettingsMode: WriteDisable
+
+Tree: false
+
+Frequency: 1
+
+RotateRandomly: false
+
+SpawnHeight: highestBlock
+
+MinHeight: 0
+
+MaxHeight: 256
+
+ExcludedBiomes: All
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+InheritBO3: 
+
+OverrideChildSettings: true
+
+CanOverride: true
+
+MustBeBelowOther: false
+
+#MustBeInside: we-jungledungeon16x16x8BranchesRandomEntranceMarker
+
+CannotBeInside: bigopenbridgebottomPlaceHolderBottom, bigopenbridgebottomledgePlaceHolderBottom, bigopenbridgebottomledge2PlaceHolderBottom, we-jungledungeon16x16x8BranchesRandomRemoveWall1, we-jungledungeon16x16x8BranchesRandomRemoveWall2, we-jungledungeon16x16x8BranchesRandomRemoveWall1Ledge, we-jungledungeon16x16x8BranchesRandomRemoveWall2Ledge, we-jungledungeon16x16x8BranchesRandomRemoveWall1Ending, we-jungledungeon16x16x8BranchesRandomRemoveWall2Ending
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: NONE
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: -1
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+SpawnPointX: 8
+
+SpawnPointY: -1
+
+SpawnPointZ: 7
+
+Block(0,0,-7,BLANK)
+Block(-1,0,-7,BLANK)
+
+Branch(0,6,0,false,bigopenbridgebottom2,SOUTH,100,1)

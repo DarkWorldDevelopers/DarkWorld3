@@ -1,0 +1,86 @@
+{
+	"textures": {
+		"particle": "blocks/planks_jungle",
+		"0": "blocks/planks_jungle"
+	},
+	"elements": [
+		{
+			"name": "Latte 5",
+			"from": [7.5, 0, 0.275],
+			"to": [8.5, 14, 2],
+			"faces": {
+				"north": {"uv": [4.75, 0, 6.5, 12], "texture": "#0"},
+				"east": {"uv": [4.75, 0, 6.5, 12], "texture": "#0"},
+				"south": {"uv": [6, 0, 7.75, 11.75], "texture": "#0"},
+				"west": {"uv": [4.75, 0, 6.5, 12], "texture": "#0"},
+				"up": {"uv": [5.25, 2.25, 7, 3.25], "texture": "#0"},
+				"down": {"uv": [5.5, 1, 7.25, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Latte 4",
+			"from": [7.5, 0, 6.175],
+			"to": [8.5, 15, 7.175],
+			"faces": {
+				"north": {"uv": [5.5, 0, 7.25, 11.75], "texture": "#0"},
+				"east": {"uv": [5.5, 0, 7.25, 11.75], "texture": "#0"},
+				"south": {"uv": [5, 0, 6, 11.75], "texture": "#0"},
+				"west": {"uv": [5.5, 0, 7.25, 11.75], "texture": "#0"},
+				"up": {"uv": [11, 10.5, 12.5, 11.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 1.5, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Latte 3",
+			"from": [7.5, 0, 4.25],
+			"to": [8.5, 15, 5.975],
+			"faces": {
+				"north": {"uv": [14.75, 3.75, 16, 16], "texture": "#0"},
+				"east": {"uv": [14.75, 3.75, 16, 16], "texture": "#0"},
+				"south": {"uv": [14.75, 3.75, 16, 16], "texture": "#0"},
+				"west": {"uv": [14.75, 3.75, 16, 16], "texture": "#0"},
+				"up": {"uv": [2.25, 8.25, 3.75, 9.25], "texture": "#0"},
+				"down": {"uv": [0, 0, 1.5, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Latte 2",
+			"from": [7.5, 0, 2.3],
+			"to": [8.5, 14.5, 4.025],
+			"faces": {
+				"north": {"uv": [5.5, 0, 7.25, 12], "texture": "#0"},
+				"east": {"uv": [5.5, 0, 7.25, 12], "texture": "#0"},
+				"south": {"uv": [5.5, 0, 7.25, 12], "texture": "#0"},
+				"west": {"uv": [5.5, 0, 7.25, 12], "texture": "#0"},
+				"up": {"uv": [0, 0, 1.5, 1], "texture": "#0"},
+				"down": {"uv": [0, 0, 1.5, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Strebe Unten",
+			"from": [7, 4, 0],
+			"to": [9, 5, 8],
+			"faces": {
+				"north": {"uv": [5.5, 1, 6.75, 11], "texture": "#0", "rotation": 90},
+				"east": {"uv": [5.5, 1, 6.75, 11], "texture": "#0", "rotation": 90},
+				"south": {"uv": [5.5, 1, 6.75, 11], "texture": "#0", "rotation": 90},
+				"west": {"uv": [5.5, 1, 6.75, 11], "texture": "#0", "rotation": 90},
+				"up": {"uv": [14.75, 4.75, 16, 14.75], "texture": "#0", "rotation": 90},
+				"down": {"uv": [14.75, 4.5, 16, 14.5], "texture": "#0", "rotation": 90}
+			}
+		},
+		{
+			"name": "Strebe oben",
+			"from": [7, 10, 0],
+			"to": [9, 11, 8],
+			"faces": {
+				"north": {"uv": [0, 4.5, 1.25, 15], "texture": "#0", "rotation": 90},
+				"east": {"uv": [0, 4.5, 1.25, 15], "texture": "#0", "rotation": 90},
+				"south": {"uv": [0, 4.5, 1.25, 15], "texture": "#0", "rotation": 90},
+				"west": {"uv": [0, 4.5, 1.25, 15], "texture": "#0", "rotation": 90},
+				"up": {"uv": [0, 4.5, 1.25, 15], "texture": "#0", "rotation": 90},
+				"down": {"uv": [0, 4.5, 1.25, 15], "texture": "#0", "rotation": 90}
+			}
+		}
+	]
+}

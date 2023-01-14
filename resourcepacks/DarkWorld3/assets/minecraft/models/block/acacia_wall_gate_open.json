@@ -1,0 +1,6 @@
+{
+    "parent": "block/acacia_fence_gate_open",
+    "textures": {
+        "texture": "blocks/planks_acacia"
+    }
+}

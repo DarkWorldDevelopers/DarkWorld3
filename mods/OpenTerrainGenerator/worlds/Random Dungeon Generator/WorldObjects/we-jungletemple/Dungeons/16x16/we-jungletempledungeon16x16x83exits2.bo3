@@ -1,0 +1,140 @@
+IsOTGPlus:true
+
+Author: PG85
+
+Description: No description
+
+Version: MCW104
+
+SettingsMode: WriteDisable
+
+Tree: false
+
+Frequency: 1
+
+RotateRandomly: false
+
+SpawnHeight: highestBlock
+
+MinHeight: 0
+
+MaxHeight: 256
+
+ExcludedBiomes: All
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+InheritBO3: we-jungletempledungeon16x16x83exits
+
+InheritBO3Rotation: WEST
+
+OverrideChildSettings: true
+
+CanOverride: false
+
+MustBeBelowOther: true
+
+MustBeInside:
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: NONE
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: -1
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+SpawnPointX: 8
+
+SpawnPointY: -1
+
+SpawnPointZ: 7
+
+#Block(0,0,1,GOLD_BLOCK)
+#Block(-1,0,0,GOLD_BLOCK)
+#Block(0,0,-1,IRON_BLOCK)
+
+## Branches ##
+
+# Opposite entrance
+
+Branch(0,0,16,false,we-jungledungeon32x32xX8_Start,NORTH,100,0,NeighbourSouth)
+Branch(0,0,16,false,we-jungledungeon32x32xX8_Start,EAST,100,0,NeighbourSouth)
+
+Branch(0,0,16,false,we-jungletempledungeon16x16x84exits,NORTH,50,0,NeighbourNorth)
+Branch(0,0,16,false,we-jungletempledungeon16x16x83exits1,NORTH,50,0,NeighbourNorth)
+Branch(0,0,16,false,we-jungletempledungeon16x16x83exits2,NORTH,50,0,NeighbourNorth)
+Branch(0,0,16,false,we-jungletempledungeon16x16x83exits3,NORTH,50,0,NeighbourNorth)
+Branch(0,0,16,false,we-jungletempledungeon16x16x82exitscorner1,NORTH,50,0,NeighbourNorth)
+Branch(0,0,16,false,we-jungletempledungeon16x16x82exitscorner2,NORTH,50,0,NeighbourNorth)
+Branch(0,0,16,false,we-jungletempledungeon16x16x82exitsopposite,NORTH,50,0,NeighbourNorth)
+
+Branch(0,0,16,true,we-jungletempledungeon16x16x81exit,NORTH,100,0,NeighbourNorth)
+
+# Use a detector here that checks if a 32x32 room has spawned next door. If so, 
+# don't rollback this branch because one of its rooms could not be spawned, 
+# we'll simply leave the entrance open so it leads to the 32x32 room.
+Branch(0,0,16,true,we-jungledungeon32x32xDetector,NORTH,100,0,NeighbourNorth)
+
+# Right entrance
+
+Branch(-16,0,0,false,we-jungledungeon32x32xX8_Start,EAST,100,0,NeighbourEast)
+Branch(-16,0,0,false,we-jungledungeon32x32xX8_Start,SOUTH,100,0,NeighbourEast)
+
+Branch(-16,0,0,false,we-jungletempledungeon16x16x84exits,EAST,50,0,NeighbourEast)
+Branch(-16,0,0,false,we-jungletempledungeon16x16x83exits1,EAST,50,0,NeighbourEast)
+Branch(-16,0,0,false,we-jungletempledungeon16x16x83exits2,EAST,50,0,NeighbourEast)
+Branch(-16,0,0,false,we-jungletempledungeon16x16x83exits3,EAST,50,0,NeighbourEast)
+Branch(-16,0,0,false,we-jungletempledungeon16x16x82exitscorner1,EAST,50,0,NeighbourEast)
+Branch(-16,0,0,false,we-jungletempledungeon16x16x82exitscorner2,EAST,50,0,NeighbourEast)
+Branch(-16,0,0,false,we-jungletempledungeon16x16x82exitsopposite,EAST,50,0,NeighbourEast)
+
+Branch(-16,0,0,true,we-jungletempledungeon16x16x81exit,EAST,100,0,NeighbourEast)
+
+# Use a detector here that checks if a 32x32 room has spawned next door. If so, 
+# don't rollback this branch because one of its rooms could not be spawned, 
+# we'll simply leave the entrance open so it leads to the 32x32 room.
+Branch(-16,0,0,true,we-jungledungeon32x32xDetector,EAST,100,0,NeighbourEast)
+
+# Remove roof
+Branch(0,-3,0,false,we-jungletempledungeon16x16x83exitsNoRoof,WEST,40,1)
+
+# Place RemoveWall2 in the entrance of the parent room
+Branch(0,0,-16,false,we-jungledungeon16x16x8BranchesRandomRemoveWall2,SOUTH,40,1)
+
+# Place RemoveWall2Ledge on left wall
+Branch(16,0,0,false,we-jungledungeon16x16x8BranchesRandomRemoveWall2Ledge,WEST,40,1)

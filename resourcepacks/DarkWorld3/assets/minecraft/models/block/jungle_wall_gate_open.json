@@ -1,0 +1,6 @@
+{
+    "parent": "block/jungle_fence_gate_open",
+    "textures": {
+        "texture": "blocks/planks_jungle"
+    }
+}

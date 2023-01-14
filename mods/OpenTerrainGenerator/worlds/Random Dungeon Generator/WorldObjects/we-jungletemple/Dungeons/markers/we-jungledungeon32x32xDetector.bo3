@@ -1,0 +1,91 @@
+IsOTGPlus:true
+
+Author: PG85
+
+Description: No description given
+
+Version: MCW104
+
+SettingsMode: WriteDisable
+
+Tree: false
+
+Frequency: 1
+
+RotateRandomly: false
+
+SpawnHeight: highestBlock
+
+MinHeight: 0
+
+MaxHeight: 256
+
+ExcludedBiomes: All
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+InheritBO3: 
+
+OverrideChildSettings: true
+
+CanOverride: true
+
+MustBeBelowOther: false
+
+MustBeInside: we-jungledungeon32x32xX8_Start, we-jungledungeon32x32xX8_Top_NE, we-jungledungeon32x32xX8_Top_NW, we-jungledungeon32x32xX8_Top_SE, we-jungledungeon32x32xX8_Top_SW, we-jungledungeon32x32xX8_Middle_Start, we-jungledungeon32x32xX8_Middle_NE, we-jungledungeon32x32xX8_Middle_NW, we-jungledungeon32x32xX8_Middle_SE, we-jungledungeon32x32xX8_Middle_SW, we-jungledungeon32x32xX8_Bottom_Start, we-jungledungeon32x32xX8_Bottom_NE, we-jungledungeon32x32xX8_Bottom_NW, we-jungledungeon32x32xX8_Bottom_SE, we-jungledungeon32x32xX8_Bottom_SW
+
+CannotBeInside:
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: NONE
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: -1
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+SpawnPointX: 8
+
+SpawnPointY: -1
+
+SpawnPointZ: 7
+
+#Block(0,0,-7,LAPIS_BLOCK,100)
+#Block(-1,0,-7,LAPIS_BLOCK,100)
+
+RandomBlock(0,0,-7,STONEBRICK:1,50,STONEBRICK:2,100)
+RandomBlock(-1,0,-7,STONEBRICK:1,50,STONEBRICK:2,100)

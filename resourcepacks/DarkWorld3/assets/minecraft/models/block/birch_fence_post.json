@@ -1,0 +1,22 @@
+{
+	"textures": {
+		"particle": "blocks/planks_birch",
+		"0": "blocks/planks_birch"
+		
+	},
+	"elements": [
+		{
+			"name": "Pfahl 1",
+			"from": [6.8, 0, 6.8],
+			"to": [9.2, 16, 9.2],
+			"faces": {
+				"north": {"uv": [6.5, 0, 8.9, 16], "texture": "#0"},
+				"east": {"uv": [6.5, 0, 8.9, 16], "texture": "#0"},
+				"south": {"uv": [6.5, 0, 8.9, 16], "texture": "#0"},
+				"west": {"uv": [6.5, 0, 8.9, 16], "texture": "#0"},
+				"up": {"uv": [6.5, 10, 8.9, 12.5], "texture": "#0"},
+				"down": {"uv": [6.5, 8.5, 8.9, 11], "texture": "#0"}
+			}
+		}
+	]
+}

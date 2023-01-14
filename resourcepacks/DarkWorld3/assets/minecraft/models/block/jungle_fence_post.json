@@ -1,0 +1,21 @@
+{
+	"textures": {
+		"particle": "blocks/planks_jungle",
+		"0": "blocks/planks_jungle"
+	},
+	"elements": [
+		{
+			"name": "Pfahl 1",
+			"from": [7, 0, 7.138],
+			"to": [9, 16, 8.863],
+			"faces": {
+				"north": {"uv": [5.75, 0, 7.5, 11.75], "texture": "#0"},
+				"east": {"uv": [5.75, 0, 7.5, 11.75], "texture": "#0"},
+				"south": {"uv": [5.75, 0, 7.5, 11.75], "texture": "#0"},
+				"west": {"uv": [5.75, 0, 7.5, 11.75], "texture": "#0"},
+				"up": {"uv": [2.25, 0.75, 4, 2.5], "texture": "#0"},
+				"down": {"uv": [2.25, 0.75, 4, 2.5], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,98 @@
+IsOTGPlus:true
+
+Author: PG85
+
+Description: No description given
+
+Version: MCW104
+
+SettingsMode: WriteDisable
+
+Tree: false
+
+Frequency: 1
+
+RotateRandomly: false
+
+SpawnHeight: highestBlock
+
+MinHeight: 0
+
+MaxHeight: 256
+
+ExcludedBiomes: All
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+InheritBO3: 
+
+OverrideChildSettings: true
+
+CanOverride: true
+
+MustBeBelowOther: false
+
+CannotBeInside:
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: NONE
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: -1
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+SpawnPointX: 8
+
+SpawnPointY: -1
+
+SpawnPointZ: 7
+
+RandomBlock(0,0,-7,STONEBRICK:1,50,STONEBRICK:2,100)
+RandomBlock(-1,0,-7,STONEBRICK:1,50,STONEBRICK:2,100)
+
+Branch(0,0,0,false,we-jungledungeon16x16x8BranchesRandomRemoveWall2Bottom,NORTH,100,1)
+Branch(0,4,0,false,we-jungledungeon16x16x8BranchesRandomRemoveWall2Top,NORTH,100,1)
+
+# This removes unwanted roof blocks from this BO3 if we're spawning in a room that has had its roof punched out
+
+Branch(0,8,0,false,bigopenbridgebottomledgePlaceHolderTop,NORTH,100,1)
+
+Branch(0,8,0,false,bigopenbridgebottomPlaceHolderTop,NORTH,100,1)
+Branch(0,-8,0,false,bigopenbridgebottomPlaceHolderBottom,NORTH,100,1)
+
+Branch(0,-8,0,false,bigopenbridgebottom2PlaceHolderBottom,NORTH,100,1)

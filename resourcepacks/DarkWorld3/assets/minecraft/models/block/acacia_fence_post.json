@@ -1,0 +1,21 @@
+{
+	"textures": {
+		"particle": "blocks/planks_acacia",
+		"0": "blocks/planks_acacia"
+	},
+	"elements": [
+		{
+			"name": "Pfahl 1",
+			"from": [6.6, 0, 6.6],
+			"to": [9.4, 16, 9.4],
+			"faces": {
+				"north": {"uv": [0, 4.75, 15.55, 6.95], "texture": "#0", "rotation": 90},
+				"east": {"uv": [0, 4.75, 15.55, 6.95], "texture": "#0", "rotation": 90},
+				"south": {"uv": [0, 4.75, 15.55, 6.95], "texture": "#0", "rotation": 90},
+				"west": {"uv": [0, 4.75, 15.55, 6.95], "texture": "#0", "rotation": 90},
+				"up": {"uv": [11.75, 12.75, 14.3, 15.2], "texture": "#0", "rotation": 90},
+				"down": {"uv": [0, 4.75, 2.3, 6.95], "texture": "#0", "rotation": 90}
+			}
+		}
+	]
+}

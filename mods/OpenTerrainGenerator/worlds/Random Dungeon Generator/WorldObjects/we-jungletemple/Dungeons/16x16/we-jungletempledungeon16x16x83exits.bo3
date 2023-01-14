@@ -1,0 +1,90 @@
+IsOTGPlus:true
+
+Author: PG85
+
+Description: No description
+
+Version: MCW104
+
+SettingsMode: WriteDisable
+
+Tree: false
+
+Frequency: 1
+
+RotateRandomly: false
+
+SpawnHeight: highestBlock
+
+MinHeight: 0
+
+MaxHeight: 256
+
+ExcludedBiomes: All
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: placeAnyway
+
+InheritBO3: we-jungletempledungeon16x16x8B
+
+OverrideChildSettings: true
+
+CanOverride: false
+
+MustBeBelowOther: true
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: -1
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+SpawnPointX: 8
+
+SpawnPointY: -1
+
+SpawnPointZ: 7
+
+## Branches ##
+
+Branch(0,0,0,false,we-jungletempledungeon16x16x83exitsDoors,NORTH,100,1)
+
+Branch(0,0,0,true,we-jungledungeon16x16x8BranchesRandomEntranceMarker,NORTH,100,0)
+Branch(0,0,0,true,we-jungledungeon16x16x8BranchesRandomEntranceMarker,EAST,100,0)
+Branch(0,0,0,true,we-jungledungeon16x16x8BranchesRandomEntranceMarker,WEST,100,0)
+Branch(0,0,0,true,we-jungledungeon16x16x8BranchesRandomWallMarker,SOUTH,100,0)
