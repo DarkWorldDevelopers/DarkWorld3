@@ -58,7 +58,7 @@ pero esto es normal y no debería causar problemas.
                                     |		 	  Adiccional			      |
                                     +-------------------------------------------------------------+
 
-or defecto, Forge sólo asigna 2GB de memoria RAM como máximo. Si se desea asignar más memoria RAM para el servidor. Para hacerlo, 
+Por defecto, Forge sólo asigna 2GB de memoria RAM como máximo. Si se desea asignar más memoria RAM para el servidor. Para hacerlo, 
 debemos dirigirnos al apartado de "Instalaciones" en el Minecraft Launcher, seleccionar la versión de Forge con el cursor del ratón 
 y hacer clic en los tres puntos que aparecen a la derecha. Luego, debemos seleccionar "Editar" y darle a la flecha de "MÁS OPCIONES". 
 En la sección "ARGUMENTOS JVM" encontrará un texto que comienza con "-Xmx2G -XX", donde 2G representa la cantidad de GB de RAM asignados en ese momento. 
